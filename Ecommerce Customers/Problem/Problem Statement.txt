@@ -1,0 +1,10 @@
+Features Available for Selection: 
+1.	Average Session Length
+2.	Time on App
+3.	Time on Website
+4.	Length of Membership
+
+Target:
+Yearly Amount spent
+
+Select the features to maximize the Yearly Amount spent.

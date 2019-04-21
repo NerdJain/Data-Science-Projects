@@ -1,0 +1,135 @@
+$$ OLS Regression Results $$
+
+-------------------------------------------------------------------------------------------------
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Profit   R-squared:                       0.764
+Model:                            OLS   Adj. R-squared:                  0.743
+Method:                 Least Squares   F-statistic:                     36.48
+Date:                Sun, 07 Apr 2019   Prob (F-statistic):           1.38e-13
+Time:                        00:16:58   Log-Likelihood:                -564.53
+No. Observations:                  50   AIC:                             1139.
+Df Residuals:                      45   BIC:                             1149.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Const           2.193e+04   1.41e+04      1.552      0.128   -6521.449    5.04e+04
+S1             -2966.5689   7273.203     -0.408      0.685   -1.76e+04    1.17e+04
+S2              2190.6324   7033.869      0.311      0.757    -1.2e+04    1.64e+04
+AVG                0.4353      0.038     11.569      0.000       0.360       0.511
+Administration     0.2333      0.104      2.239      0.030       0.023       0.443
+==============================================================================
+Omnibus:                        6.909   Durbin-Watson:                   1.565
+Prob(Omnibus):                  0.032   Jarque-Bera (JB):                7.105
+Skew:                          -0.520   Prob(JB):                       0.0287
+Kurtosis:                       4.526   Cond. No.                     9.82e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.82e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+--------------------------------------------------------------------------------------------------------
+
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Profit   R-squared:                       0.764
+Model:                            OLS   Adj. R-squared:                  0.748
+Method:                 Least Squares   F-statistic:                     49.58
+Date:                Sun, 07 Apr 2019   Prob (F-statistic):           1.87e-14
+Time:                        00:18:33   Log-Likelihood:                -564.58
+No. Observations:                  50   AIC:                             1137.
+Df Residuals:                      46   BIC:                             1145.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Const           2.285e+04   1.37e+04      1.671      0.102   -4674.388    5.04e+04
+S1             -4096.1245   6242.199     -0.656      0.515   -1.67e+04    8468.770
+AVG                0.4364      0.037     11.762      0.000       0.362       0.511
+Administration     0.2336      0.103      2.264      0.028       0.026       0.441
+==============================================================================
+Omnibus:                        6.868   Durbin-Watson:                   1.579
+Prob(Omnibus):                  0.032   Jarque-Bera (JB):                7.007
+Skew:                          -0.521   Prob(JB):                       0.0301
+Kurtosis:                       4.509   Cond. No.                     9.47e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.47e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+-----------------------------------------------------------------------------------------------------
+This is the best model: features selected [AVG, Administration]
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Profit   R-squared:                       0.762
+Model:                            OLS   Adj. R-squared:                  0.751
+Method:                 Least Squares   F-statistic:                     75.06
+Date:                Sun, 07 Apr 2019   Prob (F-statistic):           2.33e-15
+Time:                        00:22:45   Log-Likelihood:                -564.81
+No. Observations:                  50   AIC:                             1136.
+Df Residuals:                      47   BIC:                             1141.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Const           2.221e+04   1.36e+04      1.638      0.108   -5061.936    4.95e+04
+AVG                0.4318      0.036     11.924      0.000       0.359       0.505
+Administration     0.2335      0.103      2.276      0.027       0.027       0.440
+==============================================================================
+Omnibus:                        7.972   Durbin-Watson:                   1.578
+Prob(Omnibus):                  0.019   Jarque-Bera (JB):                8.998
+Skew:                          -0.560   Prob(JB):                       0.0111
+Kurtosis:                       4.751   Cond. No.                     9.44e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.44e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+-----------------------------------------------------------------------------------------------
+
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 Profit   R-squared:                       0.040
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     2.015
+Date:                Sun, 07 Apr 2019   Prob (F-statistic):              0.162
+Time:                        00:23:55   Log-Likelihood:                -599.63
+No. Observations:                  50   AIC:                             1203.
+Df Residuals:                      48   BIC:                             1207.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Const           7.697e+04   2.53e+04      3.040      0.004    2.61e+04    1.28e+05
+Administration     0.2887      0.203      1.419      0.162      -0.120       0.698
+==============================================================================
+Omnibus:                        0.126   Durbin-Watson:                   0.099
+Prob(Omnibus):                  0.939   Jarque-Bera (JB):                0.110
+Skew:                           0.093   Prob(JB):                        0.947
+Kurtosis:                       2.866   Cond. No.                     5.59e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+----------------------------------------------------------------------------------------------------

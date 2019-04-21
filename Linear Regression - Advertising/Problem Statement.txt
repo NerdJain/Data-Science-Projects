@@ -1,0 +1,8 @@
+Independent Features:
+1. TV
+2. Radio
+3. Newspaper
+
+Target: Sales
+
+Select the features and maximize the profit. Interpret the result as increase/decrease in sales.

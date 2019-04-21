@@ -1,0 +1,9 @@
+Independent Features:
+ 
+R&D Spend
+Administration
+Marketing
+
+Target Feature: Profit
+
+Select the features to maximize the profit.

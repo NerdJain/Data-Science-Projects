@@ -1,0 +1,61 @@
+OLS Regression Results
+-----------------------------------------------------------------------------------------------------
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Yearly Amount Spent   R-squared:                       0.998
+Model:                             OLS   Adj. R-squared:                  0.998
+Method:                  Least Squares   F-statistic:                 6.146e+04
+Date:                 Mon, 08 Apr 2019   Prob (F-statistic):               0.00
+Time:                         19:36:01   Log-Likelihood:                -2270.3
+No. Observations:                  500   AIC:                             4549.
+Df Residuals:                      496   BIC:                             4565.
+Df Model:                            4                                         
+Covariance Type:             nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Avg. Session Length     11.8713      0.763     15.564      0.000      10.373      13.370
+Time on App             34.7461      1.011     34.375      0.000      32.760      36.732
+Time on Website        -14.1642      0.705    -20.091      0.000     -15.549     -12.779
+Length of Membership    60.4162      1.022     59.102      0.000      58.408      62.425
+==============================================================================
+Omnibus:                        0.497   Durbin-Watson:                   2.160
+Prob(Omnibus):                  0.780   Jarque-Bera (JB):                0.605
+Skew:                          -0.008   Prob(JB):                        0.739
+Kurtosis:                       2.830   Cond. No.                         54.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+---------------------------------------------------------------------------------------------------
+
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Yearly Amount Spent   R-squared:                       0.996
+Model:                             OLS   Adj. R-squared:                  0.996
+Method:                  Least Squares   F-statistic:                 4.520e+04
+Date:                 Mon, 08 Apr 2019   Prob (F-statistic):               0.00
+Time:                         19:36:45   Log-Likelihood:                -2419.2
+No. Observations:                  500   AIC:                             4844.
+Df Residuals:                      497   BIC:                             4857.
+Df Model:                            3                                         
+Covariance Type:             nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Avg. Session Length     -1.6213      0.486     -3.333      0.001      -2.577      -0.665
+Time on App             28.1633      1.286     21.892      0.000      25.636      30.691
+Length of Membership    60.6406      1.375     44.095      0.000      57.939      63.343
+==============================================================================
+Omnibus:                        0.441   Durbin-Watson:                   2.066
+Prob(Omnibus):                  0.802   Jarque-Bera (JB):                0.547
+Skew:                          -0.053   Prob(JB):                        0.761
+Kurtosis:                       2.877   Cond. No.                         35.7
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
